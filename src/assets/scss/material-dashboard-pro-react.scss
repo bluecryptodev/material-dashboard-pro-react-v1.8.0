@@ -1,0 +1,38 @@
+/*!
+
+=========================================================
+* Material Dashboard PRO React - v1.8.0 Based on Material Dashboard PRO v1.3.0
+=========================================================
+
+* Product Page: https://www.creative-tim.com/product/material-dashboard-pro-react
+* Copyright 2019 Creative Tim (https://www.creative-tim.com)
+
+* Coded by Creative Tim
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+*/
+
+
+// variables and mixins
+@import "material-dashboard-pro-react/variables";
+@import "material-dashboard-pro-react/mixins";
+@import "material-dashboard-pro-react/shadows";
+
+// plugin css
+@import "material-dashboard-pro-react/plugins/plugin-nouislider";
+@import "material-dashboard-pro-react/plugins/plugin-perfect-scrollbar";
+@import "material-dashboard-pro-react/plugins/plugin-react-datetime";
+@import "material-dashboard-pro-react/plugins/plugin-react-bootstrap-sweetalert";
+@import "material-dashboard-pro-react/plugins/plugin-react-chartist";
+@import "material-dashboard-pro-react/plugins/plugin-react-big-calendar";
+@import "material-dashboard-pro-react/plugins/plugin-react-jvectormap";
+@import "material-dashboard-pro-react/plugins/plugin-react-table";
+@import "material-dashboard-pro-react/plugins/plugin-react-tagsinput";
+
+// Core CSS
+@import "material-dashboard-pro-react/misc";
+@import "material-dashboard-pro-react/fileupload";
+@import "material-dashboard-pro-react/fixed-plugin";

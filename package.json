@@ -1,0 +1,62 @@
+{
+  "name": "material-dashboard-pro-react",
+  "version": "1.8.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "4.3.2",
+    "@material-ui/icons": "4.2.1",
+    "chartist": "0.10.1",
+    "history": "4.9.0",
+    "moment": "2.24.0",
+    "node-sass": "4.12.0",
+    "nouislider": "14.0.2",
+    "perfect-scrollbar": "1.4.0",
+    "react": "16.9.0",
+    "react-big-calendar": "0.22.0",
+    "react-bootstrap-sweetalert": "4.4.1",
+    "react-chartist": "0.13.3",
+    "react-datetime": "2.16.3",
+    "react-dom": "16.9.0",
+    "react-google-maps": "9.4.5",
+    "react-jvectormap": "0.0.12",
+    "react-router-dom": "5.0.1",
+    "react-scripts": "3.1.0",
+    "react-swipeable-views": "0.13.3",
+    "react-table": "6.10.0",
+    "react-tagsinput": "3.19.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build && gulp licenses",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "deploy": "npm run build",
+    "lint:check": "eslint . --ext=js,jsx;  exit 0",
+    "lint:fix": "eslint . --ext=js,jsx --fix;  exit 0",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
+    "compile-sass": "node-sass src/assets/scss/material-dashboard-pro-react.scss src/assets/css/material-dashboard-pro-react.css",
+    "minify-sass": "node-sass src/assets/scss/material-dashboard-pro-react.scss src/assets/css/material-dashboard-pro-react.min.css --output-style compressed",
+    "map-sass": "node-sass src/assets/scss/material-dashboard-pro-react.scss src/assets/css/material-dashboard-pro-react.css --source-map true"
+  },
+  "optionalDependencies": {
+    "@types/googlemaps": "3.37.3",
+    "@types/markerclustererplus": "2.1.33",
+    "ajv": "6.10.2",
+    "typescript": "3.5.3"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "6.0.0",
+    "eslint-plugin-prettier": "3.1.0",
+    "gulp": "4.0.2",
+    "gulp-append-prepend": "1.0.8",
+    "prettier": "1.18.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": []
+  }
+}
